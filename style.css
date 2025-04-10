@@ -60,15 +60,14 @@ height: 20px;
     text-align: center;
 }
 
-.contact-button{
-    
-    width: 36px;
-    padding: 30px;
-    background-color: grey;
-    margin-left: 50%;
-    
-}
 
+.contact-button button{
+    width: 200px;
+    height: 70px;
+    margin-left: 45%;
+    border-color: white;
+    border-radius: 10px;
+}
 .border{
     padding: 100px;
     justify-content: center;
@@ -79,6 +78,17 @@ height: 20px;
 padding: 20px;
 
 
+}
+#knowmorebutton{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: green;
+}
+#contact{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 
@@ -205,7 +215,7 @@ font-size: xx-large;
 
     .logoicons{
         display: flex;
-        gap: 120px;
+        gap: 80px;
         border-radius: 10px;
         padding: 0px 100px;
 
@@ -264,13 +274,13 @@ height: 150px;
 
 }
 
-#markalar{
-
-
-
+.markalar img{
     border-radius: 3px;
-    width: 150px;
-    height: 150px;
+    
+    height: 100px;
+    margin-top: 17%;
+    
+    
 
 }
 
@@ -339,6 +349,7 @@ border-radius: 10px;
 
 .footerstyle{
 
+    height: 500px;
     text-align: center;
     padding: 1px;
     background-color:black;
@@ -349,7 +360,8 @@ margin-top: 120px;
 .companycontact{
 padding: 5%;
 background-color: white;
-width:40%;
+width:30%;
+border-radius: 10px;
 
 
 }
@@ -357,15 +369,22 @@ width:40%;
     background-image: url('Contact_Map.max-1280x720.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding:10%
+    padding:10%;
+    border-radius: 10px;
+    
     
 }
 
 .stylefooter{
 display: flex;
-justify-content: space-between;
+margin-top: 6%;
+gap: 6%;
+margin-left: 5%;
+color: gray;
 
-
+}
+.stylefooter li{
+    list-style: none;
 }
 .rasilogo{
 
@@ -383,6 +402,10 @@ justify-content: space-between;
 #rasinlogo{
 border-radius: 10px;
 
+}
+#footer-button {
+margin-bottom: 5%;
+margin-top: 5%;
 }
 
 
