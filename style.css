@@ -12,14 +12,18 @@ display: flex;
 
 
 }
-
+body{
+ overflow-x: hidden ;
+}
 .navigationimage{
 max-width: fit-content;
 width: 80px;
 height: 800px;
 display: flex;
 
+
 } 
+
 
 .navigationbar{
 display: flex;
@@ -86,9 +90,299 @@ gap: 6%;
 
 
 }
-.knoowbutton{
 
+
+.knowbutton{
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    border-radius: 30%;
+
+}
+
+.contactus-button{
+height:150px ;
+width:30% ;
+padding-left: 150px;
+margin-top: -70px;
+
+}
+
+
+.serviceicons{
+    display: flex;
+    gap: 500px;
     
+    
+}
+
+.quality{
+    width: 100px;
+    height: 100px;
+}
+
+.warranty{
+    width: 100px;
+    height: 100px;
+}
+
+.shipping{
+width: 100px;
+height: 100px;
+
+}
+
+.sustainableartistry{
+    width: 100px;
+    height: 100px;
+}
+.printingtechniques{
+padding: 100px;
+font-size: xx-large;
+}
+.artwork{
+    
+    
+    gap:200px ;
+}
+
+.handmadedesigns{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#traditiontextile{
+    width:600px ;
+    height: 600px;
+    border-radius: 10px;
+}
+
+
+#UV{
+    width:600px ;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+#print{
+
+    width:600px ;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.clientpraise{
+padding: 200px;
+font-size: xx-large;
+
+
+
+}
+
+
+.workindustries{
+    display: flex;
+    gap: 600px;
+    border-radius: 10px;
+    padding: 0px 100px;
+}
+
+    .starrating{
+        display: flex;
+        padding: 20px;
+        font-size:29px ;
+        gap:6% ;
+
+    }
+
+    #cusions{
+        border-radius: 10px;
+    }
+
+
+    .logoicons{
+        display: flex;
+        gap: 120px;
+        border-radius: 10px;
+        padding: 0px 100px;
+
+
+    }
+
+    #arvin{
+
+border-radius: 3px;
+width: 150px;
+height: 150px;
+    }
+
+    #gap{
+
+
+        border-radius: 3px;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    #myntra{
+
+        border-radius: 3px;
+        width: 1000px;
+        height: 1000px;
+
+    }
+
+    #puma{
+
+        border-radius: 3px;
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+#aditya{
+
+
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+
+
+}
+
+#converse{
+
+
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+
+}
+
+#markalar{
+
+
+
+    border-radius: 3px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.bestwork{
+
+    padding: 200px;
+    font-size: 40px;    
+}
+
+.imagesofclothes{
+display: flex;
+gap: 70px;
+border-radius: 10px;
+}
+
+#displayclothes{
+width:600px ;
+height:600px ;
+border-radius: 10px;
+
+}
+
+#chesterbed{
+
+    width:600px ;
+height:600px ;
+border-radius: 10px;
+}
+
+#floraldress{
+
+    width:600px ;
+height:600px ;
+border-radius: 10px;
+}
+
+.womanwithshawl{
+display: flex;
+padding: 10px;
+}
+
+#shawl{
+width: 2000px;
+height: 800px;
+border-radius: 10px;
+
+}
+
+.reachout{
+
+
+    padding: 200px;
+    font-size: 40px;  
+}
+#map{
+    width: 1800px;
+    height: 800px;
+    border-radius: 10px;
+
+}
+
+.border{
+
+    font-size: 40px;
+}
+
+.footerstyle{
+
+    text-align: center;
+    padding: 1px;
+    background-color:black;
+margin-top: 120px;
+    color: white;
+}
+
+.companycontact{
+padding: 5%;
+background-color: white;
+width:40%;
+
+
+}
+.mapadress{
+    background-image: url('Contact_Map.max-1280x720.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:10%
+    
+}
+
+.stylefooter{
+display: flex;
+justify-content: space-between;
+
+
+}
+.rasilogo{
+
+    height: 20px;
+    width: 20px;
+    border: 3px;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+#bed{
+    border-radius: 10px;
+}
+
+#rasinlogo{
+border-radius: 10px;
+
 }
 
 
@@ -99,4 +393,6 @@ gap: 6%;
 
 
 
-    
+
+
+
